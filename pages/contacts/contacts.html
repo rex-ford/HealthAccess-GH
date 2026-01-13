@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact | HealthAccess GH</title>
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="icon" href="../../assets/icons/logo.ico.jpg" type="image/x-icon">
+<script src="../../js/script.js"></script>
+</head>
+<body>
+
+<!-- ===== Header ===== -->
+<header>
+    <h1>HealthAccess GH</h1>
+    <nav class="navbar">
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../about/about.html">About</a></li>
+            <li class="dropdown">
+                <a href="../services/services.html">Health Services ▾</a>
+                <ul class="dropdown-content">
+                    <li><a href="../services/outpatient.html">Outpatient Care</a></li>
+                    <li><a href="../services/emergency.html">Emergency Services</a></li>
+                    <li><a href="../services/specialist.html">Specialist Care</a></li>
+                </ul>
+            </li>
+            <li><a href="../info/info.html">Health Information</a></li>
+            <li><a href="../appointments/appointments.html">Appointments</a></li>
+            <li><a href="../support/support.html">Support</a></li>
+            <li><a href="../FAQs/FAQs.html">FAQ</a></li>
+            <li><a href="../contacts/contacts.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- ===== Contact Section ===== -->
+<section>
+    <h2>Contact Us</h2>
+    <p>Reach out for enquiries, feedback, or support.</p>
+
+    <!-- Contact Details -->
+    <div class="contact-info cards">
+        <div class="card">
+            <h3>Phone</h3>
+            <p>+233 59 202 0434</p>
+        </div>
+        <div class="card">
+            <h3>Email</h3>
+            <p>support@healthaccessgh.com</p>
+        </div>
+        <div class="card">
+            <h3>Social Media</h3>
+            <p>
+                <a href="https://facebook.com/HealthAccessGH" target="_blank">Facebook</a><br>
+                <a href="https://twitter.com/HealthAccessGH" target="_blank">Twitter</a><br>
+                <a href="https://instagram.com/HealthAccessGH" target="_blank">Instagram</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Contact Form -->
+    <form onsubmit="return validateForm()" class="contact-form">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" placeholder="Your Name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" placeholder="Your Email" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer>
+    <p>&copy; 2026 HealthAccess GH</p>
+</footer>
+
+</body>
+</html>
