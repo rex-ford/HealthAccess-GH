@@ -358,15 +358,15 @@ footer {
 }
 
 body.outpatient .service-hero{
-    background-image: url("../assets/images/outpatient.jpg");
+    background-image: url("../images/outpatient.jpg");
 }
 
 body.emergency .service-hero{
-    background-image: url("../assets/images/emergency.jpg");
+    background-image: url("../images/emergency.jpg");
 }
 
 body.specialist .service-hero{
-    background-image: url("../assets/images/specialist.jpg");
+    background-image: url("../images/specialist.jpg");
 }
 
 .service-hero h2 {
@@ -444,3 +444,4 @@ body.specialist .service-hero{
         text-align: center;
     }
 }
+
